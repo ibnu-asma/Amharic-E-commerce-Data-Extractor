@@ -1,17 +1,11 @@
 
 import asyncio
 import os
-import sys
 import json
-import pandas as pd
 from telethon import TelegramClient
 from datetime import datetime
 import yaml
 import logging
-
-# Add project root to path
-sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
-from src.preprocessing.preprocess import preprocess_amharic_text
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -62,41 +56,35 @@ async def scrape_telegram_channel(client, channel, limit=100):
             messages.append(msg_data)
     return messages
 
-def save_data(messages, channel):
-    """Save raw JSON and processed CSV."""
+def save_raw_data(messages, channel):
+    """Save raw JSON data only."""
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     os.makedirs('data/raw', exist_ok=True)
-    os.makedirs('data/processed', exist_ok=True)
     
     # Save raw JSON
     raw_path = f"data/raw/{channel}_{timestamp}.json"
     with open(raw_path, 'w', encoding='utf-8') as f:
         json.dump(messages, f, ensure_ascii=False, indent=2)
     logging.info(f"Saved raw data to {raw_path}")
-    
-    # Process and save CSV
-    df = pd.DataFrame(messages)
-    df['processed_text'] = df['text'].apply(preprocess_amharic_text)
-    processed_path = f"data/processed/{channel}_{timestamp}.csv"
-    df.to_csv(processed_path, index=False, encoding='utf-8')
-    logging.info(f"Saved processed data to {processed_path}")
 
 async def main():
     """Main function to scrape multiple channels."""
     client = await connect_to_telegram()
     channels = [
+        '@ethio_market_place',
         '@helloomarketethiopia',
         '@jijietcom',
-        '@ethioomart1',
-        '@shega_gebeya1',
+        
+        '@ethiomarketo',
         '@AwasMart'
+        
     ]
     for channel in channels:
         try:
             logging.info(f"Scraping channel: {channel}")
             messages = await scrape_telegram_channel(client, channel, limit=100)
             if messages:
-                save_data(messages, channel.replace('@', ''))
+                save_raw_data(messages, channel.replace('@', ''))
             else:
                 logging.warning(f"No messages scraped from {channel}")
         except Exception as e:
