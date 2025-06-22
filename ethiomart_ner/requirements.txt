@@ -9,3 +9,6 @@ pyyaml==6.0.2
 torch==2.4.1
 pytest==8.3.3
 etnltk==0.0.22
+sentencepiece==0.1.99
+protobuf==3.20.3
+schedule==1.2.0
