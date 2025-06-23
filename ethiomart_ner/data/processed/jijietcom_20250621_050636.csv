@@ -1,4 +1,4 @@
-channel,message_id,date,text,sender_id,views,image_path,doc_path,processed_text
+channel,message_id,date,text,sender_id,views,image_path,doc_path,processed_text,conll_text
 @jijietcom,309171,2025-06-21T12:03:47+00:00,"⚠️ ያስተውሉ❗️
 
 ዘመኑ እየተቀየረ እንደሆነ ያስተውሉ❗️
@@ -27,8 +27,8 @@ channel,message_id,date,text,sender_id,views,image_path,doc_path,processed_text
 
 የመጋበዣ ስቴፕ ከታች በቪድዮ ተቀምጣል
 
-ቪዲዮ --> https://youtu.be/Hwy3fc8wLCI",5996930820,0,,,⚠️ ያስተውሉ❗️ ዘመኑ እየተቀየረ እንደሆነ ያስተውሉ❗️ ከሁለት አመት በፊት የቴሌግራምን ተቀባይነት አሁን ካለው ተቀባይነት ጋር ያነፃፅሩት ምን የተለየ ነገር አስተዋሉ? ምንም ካላስተዋሉ እስቲ እናግዞ ከሁለት አመት በፊት ፋይል ወይም ፎቶ ለወዳጆ ለመላክ ሲያስቡ #WhatApp ነበር ቀድሞ ወደ አእምሮዎ የሚመጣው አሁንስ? ከላይ የተጠቀሰው እጅግ በጣም በጥቂቱ ያለውን ለውጥ ያሳያል ሌሎችም ብዙ እንዳሉ ሆነው ከሁለት አመት #በኋላ በዚህ አፕ ላይ ውድድሩ በጣም የከፋ እንደሚሆን አይጠረጠርም ይህን ውድድር ቀድመው ማሸነፍ መቻሎን እርግጠኛ ይሁኑ የሚሸጡት እቃ ወይም አገልግሎት ባይኖሮት እንኳን ወደፊት ለሚኖሮት ቢዝነስ ቀድመው ለማስተዋወቅ አሁን ቦታዎን ይያዙ ይህን መልእክት ያዩበት ግሩፕ #ከ200ሺ አባላት በታች ከሆነ እድለኛ ኖት ምክንያቱም 200ሺ እስኪሞላ ወዳጆን ጋብዘው በነፃ ማስተዋወቅ ይችላሉ #200ሺ ከሞላቦት ግን የቴሌግራም ፕላትፎርም ከዛ በላይ በአንድ ግሩፕ ስለማያስተናግድ (Google it for fact check) ከስራ ውጭ ሆኑ ማለት ነው አሁን የሚነግዱት ወይም የሚሸጡት ነገር ባይኖር እንኳን ወደፊት ለሚሰሩት ቢዝነስ ጋብዘው አንድ እቃ (የማይሸጡትም ቢሆን) ፓስት አርገው ፓስት ማድረግ መቻሎን አረጋግጠው ይቀመጡ:: አንድ ግዜ ከጋበዙ ወደፊት መጋበዝ አይጠበቅቦትም #200ሺ ሳይሞላቦ አሁኑኑ ይጋብዙ የመጋበዣ ስቴፕ ከታች በቪድዮ ተቀምጣል ቪዲዮ --> https://youtu.be/Hwy3fc8wLCI
-@jijietcom,309170,2025-06-21T11:50:57+00:00,,2010703601,0,data/raw/media\@jijietcom_309170.jpg,,
+ቪዲዮ --> https://youtu.be/Hwy3fc8wLCI",5996930820,0,,,⚠️ ያስተውሉ❗️ ዘመኑ እየተቀየረ እንደሆነ ያስተውሉ❗️ ከሁለት አመት በፊት የቴሌግራምን ተቀባይነት አሁን ካለው ተቀባይነት ጋር ያነፃፅሩት ምን የተለየ ነገር አስተዋሉ? ምንም ካላስተዋሉ እስቲ እናግዞ ከሁለት አመት በፊት ፋይል ወይም ፎቶ ለወዳጆ ለመላክ ሲያስቡ #WhatApp ነበር ቀድሞ ወደ አእምሮዎ የሚመጣው አሁንስ? ከላይ የተጠቀሰው እጅግ በጣም በጥቂቱ ያለውን ለውጥ ያሳያል ሌሎችም ብዙ እንዳሉ ሆነው ከሁለት አመት #በኋላ በዚህ አፕ ላይ ውድድሩ በጣም የከፋ እንደሚሆን አይጠረጠርም ይህን ውድድር ቀድመው ማሸነፍ መቻሎን እርግጠኛ ይሁኑ የሚሸጡት እቃ ወይም አገልግሎት ባይኖሮት እንኳን ወደፊት ለሚኖሮት ቢዝነስ ቀድመው ለማስተዋወቅ አሁን ቦታዎን ይያዙ ይህን መልእክት ያዩበት ግሩፕ #ከ200ሺ አባላት በታች ከሆነ እድለኛ ኖት ምክንያቱም 200ሺ እስኪሞላ ወዳጆን ጋብዘው በነፃ ማስተዋወቅ ይችላሉ #200ሺ ከሞላቦት ግን የቴሌግራም ፕላትፎርም ከዛ በላይ በአንድ ግሩፕ ስለማያስተናግድ (Google it for fact check) ከስራ ውጭ ሆኑ ማለት ነው አሁን የሚነግዱት ወይም የሚሸጡት ነገር ባይኖር እንኳን ወደፊት ለሚሰሩት ቢዝነስ ጋብዘው አንድ እቃ (የማይሸጡትም ቢሆን) ፓስት አርገው ፓስት ማድረግ መቻሎን አረጋግጠው ይቀመጡ:: አንድ ግዜ ከጋበዙ ወደፊት መጋበዝ አይጠበቅቦትም #200ሺ ሳይሞላቦ አሁኑኑ ይጋብዙ የመጋበዣ ስቴፕ ከታች በቪድዮ ተቀምጣል ቪዲዮ --> https://youtu.be/Hwy3fc8wLCI,ያስተውሉ ዘመኑ እየተቀየረ እንደሆነ ያስተውሉ ከሁለት አመት በፊት የቴሌግራምን ተቀባይነት አሁን ካለው ተቀባይነት ጋር ያነፃፅሩት ምን የተለየ ነገር አስተዋሉ? ምንም ካላስተዋሉ እስቲ እናግዞ ከሁለት አመት በፊት ፋይል ወይም ፎቶ ለወዳጆ ለመላክ ሲያስቡ WhatApp ነበር ቀድሞ ወደ አእምሮዎ የሚመጣው አሁንስ? ከላይ የተጠቀሰው እጅግ በጣም በጥቂቱ ያለውን ለውጥ ያሳያል ሌሎችም ብዙ እንዳሉ ሆነው ከሁለት አመት በኋላ በዚህ አፕ ላይ ውድድሩ በጣም የከፋ እንደሚሆን አይጠረጠርም ይህን ውድድር ቀድመው ማሸነፍ መቻሎን እርግጠኛ ይሁኑ የሚሸጡት እቃ ወይም አገልግሎት ባይኖሮት እንኳን ወደፊት ለሚኖሮት ቢዝነስ ቀድመው ለማስተዋወቅ አሁን ቦታዎን ይያዙ ይህን መልእክት ያዩበት ግሩፕ ከ200ሺ አባላት በታች ከሆነ እድለኛ ኖት ምክንያቱም 200ሺ እስኪሞላ ወዳጆን ጋብዘው በነፃ ማስተዋወቅ ይችላሉ 200ሺ ከሞላቦት ግን የቴሌግራም ፕላትፎርም ከዛ በላይ በአንድ ግሩፕ ስለማያስተናግድ (Google it for fact check) ከስራ ውጭ ሆኑ ማለት ነው አሁን የሚነግዱት ወይም የሚሸጡት ነገር ባይኖር እንኳን ወደፊት ለሚሰሩት ቢዝነስ ጋብዘው አንድ እቃ (የማይሸጡትም ቢሆን) ፓስት አርገው ፓስት ማድረግ መቻሎን አረጋግጠው ይቀመጡ አንድ ግዜ ከጋበዙ ወደፊት መጋበዝ አይጠበቅቦትም 200ሺ ሳይሞላቦ አሁኑኑ ይጋብዙ የመጋበዣ ስቴፕ ከታች በቪድዮ ተቀምጣል ቪዲዮ -- https youtu.be Hwy3fc8wLCI
+@jijietcom,309170,2025-06-21T11:50:57+00:00,,2010703601,0,data/raw/media\@jijietcom_309170.jpg,,,
 @jijietcom,309169,2025-06-21T11:50:57+00:00,"💁‍♂Samsung galaxy A12
 
 🫷64 GB storage
@@ -37,15 +37,15 @@ channel,message_id,date,text,sender_id,views,image_path,doc_path,processed_text
 🫷Excellent condition🔥
 🫷Best camera with high duality🌇
 🫷Price 11500 birr አሪፍ ይዞታ ላይ 
-☎️0968567585 or inbox",2010703601,0,data/raw/media\@jijietcom_309169.jpg,,💁‍♂Samsung galaxy A12 🫷64 GB storage 🫷4 GB ram 🫷5000 mah 🔋 battery 🫷Excellent condition🔥 🫷Best camera with high duality🌇 🫷Price 11500 ETB አሪፍ ይዞታ ላይ ☎️0968567585 or inbox
-@jijietcom,309168,2025-06-21T11:50:05+00:00,,5880052446,0,data/raw/media\@jijietcom_309168.jpg,,
+☎️0968567585 or inbox",2010703601,0,data/raw/media\@jijietcom_309169.jpg,,💁‍♂Samsung galaxy A12 🫷64 GB storage 🫷4 GB ram 🫷5000 mah 🔋 battery 🫷Excellent condition🔥 🫷Best camera with high duality🌇 🫷Price 11500 ETB አሪፍ ይዞታ ላይ ☎️0968567585 or inbox,Samsung galaxy A12 64 GB storage 4 GB ram 5000 mah battery Excellent condition Best camera with high duality Price 11500 ETB አሪፍ ይዞታ ላይ 0968567585 or inbox
+@jijietcom,309168,2025-06-21T11:50:05+00:00,,5880052446,0,data/raw/media\@jijietcom_309168.jpg,,,
 @jijietcom,309167,2025-06-21T11:50:05+00:00,"Samsung Galaxy A20
 32/3
 🔥
 ✨EXCELLENT CONDITION 👌 
 🛑dual sim(ሁለት ሲም)
 🧷ዋጋ 6800😱 ]
-የቀደመ ይውሰድ 0968567585",5880052446,0,data/raw/media\@jijietcom_309167.jpg,,Samsung Galaxy A20 32/3 🔥 ✨EXCELLENT CONDITION 👌 🛑dual sim(ሁለት ሲም) 🧷ዋጋ 6800😱 ] የቀደመ ይውሰድ 0968567585
+የቀደመ ይውሰድ 0968567585",5880052446,0,data/raw/media\@jijietcom_309167.jpg,,Samsung Galaxy A20 32/3 🔥 ✨EXCELLENT CONDITION 👌 🛑dual sim(ሁለት ሲም) 🧷ዋጋ 6800😱 ] የቀደመ ይውሰድ 0968567585,Samsung Galaxy A20 32 3 EXCELLENT CONDITION dual sim(ሁለት ሲም) ዋጋ 6800 የቀደመ ይውሰድ 0968567585
 @jijietcom,309166,2025-06-21T11:44:50+00:00,"👋 Hello, Community!
 I’m looking to rent LinkedIn accounts that meet the following criteria:
 
@@ -97,7 +97,7 @@ If you’re interested, send me the following details via DM:
 Let’s collaborate and create value together.
 
 📲 Dm me:@Benyas721
-Contact me:0923708463",926517761,0,,,"👋 Hello, Community I’m looking to rent LinkedIn accounts that meet the following criteria: ✅ Requirements Connections: 500+ connections or friends Status: Authentic and in good standing 🎁 What I Offer Here’s a well-structured explanation of my pricing model: Pricing Model for Connections and Booking Fees 1. 300-500 Connections: weekly Fee:1000 Etb 3. 500-1000 Connections: weekly Fee:1500 Etb 4. 1000-2000 Connections: weekly Fee: 2500etb Note: The monthly fee varies based on the number of your account connection , age and activity . . 💵 Competitive Payment: Earn based on your account’s connections and quality. 🔒 Safe Usage: Your account will be used only for professional networking and US market promotion, ensuring confidentiality and adherence to LinkedIn’s guidelines. 🤝 Flexible Terms: I’m open to customizing terms to suit your preferences. 📩 How to Apply If you’re interested, send me the following details via DM: 1️⃣ Number of connections 2️⃣ Date the account was opened 3️⃣ Your expected price ✨ This is a great opportunity for those with unused LinkedIn accounts Let’s collaborate and create value together. 📲 Dm me:@Benyas721 Contact me:0923708463"
+Contact me:0923708463",926517761,0,,,"👋 Hello, Community I’m looking to rent LinkedIn accounts that meet the following criteria: ✅ Requirements Connections: 500+ connections or friends Status: Authentic and in good standing 🎁 What I Offer Here’s a well-structured explanation of my pricing model: Pricing Model for Connections and Booking Fees 1. 300-500 Connections: weekly Fee:1000 Etb 3. 500-1000 Connections: weekly Fee:1500 Etb 4. 1000-2000 Connections: weekly Fee: 2500etb Note: The monthly fee varies based on the number of your account connection , age and activity . . 💵 Competitive Payment: Earn based on your account’s connections and quality. 🔒 Safe Usage: Your account will be used only for professional networking and US market promotion, ensuring confidentiality and adherence to LinkedIn’s guidelines. 🤝 Flexible Terms: I’m open to customizing terms to suit your preferences. 📩 How to Apply If you’re interested, send me the following details via DM: 1️⃣ Number of connections 2️⃣ Date the account was opened 3️⃣ Your expected price ✨ This is a great opportunity for those with unused LinkedIn accounts Let’s collaborate and create value together. 📲 Dm me:@Benyas721 Contact me:0923708463","Hello, Community I m looking to rent LinkedIn accounts that meet the following criteria Requirements Connections 500 connections or friends Status Authentic and in good standing What I Offer Here s a well-structured explanation of my pricing model Pricing Model for Connections and Booking Fees 1. 300-500 Connections weekly Fee 1000 Etb 3. 500-1000 Connections weekly Fee 1500 Etb 4. 1000-2000 Connections weekly Fee 2500etb Note The monthly fee varies based on the number of your account connection , age and activity . . Competitive Payment Earn based on your account s connections and quality. Safe Usage Your account will be used only for professional networking and US market promotion, ensuring confidentiality and adherence to LinkedIn s guidelines. Flexible Terms I m open to customizing terms to suit your preferences. How to Apply If you re interested, send me the following details via DM 1 Number of connections 2 Date the account was opened 3 Your expected price This is a great opportunity for those with unused LinkedIn accounts Let s collaborate and create value together. Dm me Benyas721 Contact me 0923708463"
 @jijietcom,309165,2025-06-21T11:44:50+00:00,"Linkedin 
 የኪራይ ዋጋ (በሳምንት የሚከፈል)
 ግንኙነቶች  ዋጋ (በሳምንት)
@@ -118,8 +118,8 @@ Dm aregulgn
 የመግቢያ ቦታ ከዩኤስኤ ወይም ከአለም አቀፍ መድረስን መደገፍ አለበት (ክልላዊ መቆለፍ የለም)።
 በኪራይ ጊዜ ውስጥ የይለፍ ቃሎች፣ ኢሜል ወይም የማስያዣ መረጃ ለውጦች አይፈቀዱም።
 
-የመክፈያ ዘዴ: Cryptocurrency",926517761,0,,,Linkedin የኪራይ ዋጋ (በሳምንት የሚከፈል) ግንኙነቶች ዋጋ (በሳምንት) 100 - 299 ሰዎች 20(3000) ዶላር 300 - 499 ሰዎች 30(4500 ETB)ዶላር 500 ወይም ከዚያ በላይ 40 (6000 ETB)ዶላር 🔓 የማገድ አገልግሎት መለያዎ የተገደበ ከሆነ የአንድ ጊዜ እገዳን የማንሳት አገልግሎት እንሰጣለን፡ በምሳሌ $2-3USD Dm aregulgn እገዳን ማንሳት የምዝገባ ኢሜል/የማረጋገጫ ኮድ እና ሌላ የማረጋገጫ መረጃ ማቅረብን ይጠይቃል ይህ አገልግሎት ከፍተኛ ተገዢነት እና መደበኛ ሁኔታ ላላቸው የቆዩ መለያዎች ብቻ ነው የሚሰራው 📌 የመለያ መስፈርቶች ቢያንስ ለ 1 ዓመት የተመዘገበ እውነተኛ መለያ መሆን አለበት; በመደበኛነት መግባት ኢሜል ማሰር እና ንቁ እውቂያዎች ሊኖረው ይገባል የመግቢያ ቦታ ከዩኤስኤ ወይም ከአለም አቀፍ መድረስን መደገፍ አለበት (ክልላዊ መቆለፍ የለም) በኪራይ ጊዜ ውስጥ የይለፍ ቃሎች ኢሜል ወይም የማስያዣ መረጃ ለውጦች አይፈቀዱም የመክፈያ ዘዴ: Cryptocurrency
-@jijietcom,309164,2025-06-21T11:44:50+00:00,,926517761,0,data/raw/media\@jijietcom_309164.jpg,,
+የመክፈያ ዘዴ: Cryptocurrency",926517761,0,,,Linkedin የኪራይ ዋጋ (በሳምንት የሚከፈል) ግንኙነቶች ዋጋ (በሳምንት) 100 - 299 ሰዎች 20(3000) ዶላር 300 - 499 ሰዎች 30(4500 ETB)ዶላር 500 ወይም ከዚያ በላይ 40 (6000 ETB)ዶላር 🔓 የማገድ አገልግሎት መለያዎ የተገደበ ከሆነ የአንድ ጊዜ እገዳን የማንሳት አገልግሎት እንሰጣለን፡ በምሳሌ $2-3USD Dm aregulgn እገዳን ማንሳት የምዝገባ ኢሜል/የማረጋገጫ ኮድ እና ሌላ የማረጋገጫ መረጃ ማቅረብን ይጠይቃል ይህ አገልግሎት ከፍተኛ ተገዢነት እና መደበኛ ሁኔታ ላላቸው የቆዩ መለያዎች ብቻ ነው የሚሰራው 📌 የመለያ መስፈርቶች ቢያንስ ለ 1 ዓመት የተመዘገበ እውነተኛ መለያ መሆን አለበት; በመደበኛነት መግባት ኢሜል ማሰር እና ንቁ እውቂያዎች ሊኖረው ይገባል የመግቢያ ቦታ ከዩኤስኤ ወይም ከአለም አቀፍ መድረስን መደገፍ አለበት (ክልላዊ መቆለፍ የለም) በኪራይ ጊዜ ውስጥ የይለፍ ቃሎች ኢሜል ወይም የማስያዣ መረጃ ለውጦች አይፈቀዱም የመክፈያ ዘዴ: Cryptocurrency,Linkedin የኪራይ ዋጋ (በሳምንት የሚከፈል) ግንኙነቶች ዋጋ (በሳምንት) 100 - 299 ሰዎች 20(3000) ዶላር 300 - 499 ሰዎች 30(4500 ETB)ዶላር 500 ወይም ከዚያ በላይ 40 (6000 ETB)ዶላር የማገድ አገልግሎት መለያዎ የተገደበ ከሆነ የአንድ ጊዜ እገዳን የማንሳት አገልግሎት እንሰጣለን፡ በምሳሌ 2-3USD Dm aregulgn እገዳን ማንሳት የምዝገባ ኢሜል የማረጋገጫ ኮድ እና ሌላ የማረጋገጫ መረጃ ማቅረብን ይጠይቃል ይህ አገልግሎት ከፍተኛ ተገዢነት እና መደበኛ ሁኔታ ላላቸው የቆዩ መለያዎች ብቻ ነው የሚሰራው የመለያ መስፈርቶች ቢያንስ ለ 1 ዓመት የተመዘገበ እውነተኛ መለያ መሆን አለበት በመደበኛነት መግባት ኢሜል ማሰር እና ንቁ እውቂያዎች ሊኖረው ይገባል የመግቢያ ቦታ ከዩኤስኤ ወይም ከአለም አቀፍ መድረስን መደገፍ አለበት (ክልላዊ መቆለፍ የለም) በኪራይ ጊዜ ውስጥ የይለፍ ቃሎች ኢሜል ወይም የማስያዣ መረጃ ለውጦች አይፈቀዱም የመክፈያ ዘዴ Cryptocurrency
+@jijietcom,309164,2025-06-21T11:44:50+00:00,,926517761,0,data/raw/media\@jijietcom_309164.jpg,,,
 @jijietcom,309159,2025-06-21T11:26:49+00:00,"🌟Turmeric Whitening Oil
 
 👉The curcumin in it reduces the excess melanin production and lightens your skin tone
@@ -137,7 +137,7 @@ Dm aregulgn
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,828,data/raw/media\@jijietcom_309159.jpg,,"🌟Turmeric Whitening Oil 👉The curcumin in it reduces the excess melanin production and lightens your skin tone 👉Anti aging 👉Nourishing 👉Moisturizing 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,828,data/raw/media\@jijietcom_309159.jpg,,"🌟Turmeric Whitening Oil 👉The curcumin in it reduces the excess melanin production and lightens your skin tone 👉Anti aging 👉Nourishing 👉Moisturizing 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Turmeric Whitening Oil The curcumin in it reduces the excess melanin production and lightens your skin tone Anti aging Nourishing Moisturizing Contact Cosmobeki call 0947-737475 0947-767778 l Price 2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309158,2025-06-21T11:26:38+00:00,"🌟Olay 7 in one 
 
 👉Hydrates
@@ -157,7 +157,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,806,data/raw/media\@jijietcom_309158.jpg,,"🌟Olay 7 in one 👉Hydrates 👉Replenishes 👉Brightens 👉Evens the look of tones 👉Minimizes the look of pores 👉Visibily firms and Visibily smooths 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,806,data/raw/media\@jijietcom_309158.jpg,,"🌟Olay 7 in one 👉Hydrates 👉Replenishes 👉Brightens 👉Evens the look of tones 👉Minimizes the look of pores 👉Visibily firms and Visibily smooths 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Olay 7 in one Hydrates Replenishes Brightens Evens the look of tones Minimizes the look of pores Visibily firms and Visibily smooths Contact Cosmobeki call 0947-737475 0947-767778 l Price 4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309157,2025-06-21T11:26:31+00:00,"🌟Black Angel Cocoa Butter lotion 
 
 👉24 hour moisture
@@ -174,7 +174,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,772,data/raw/media\@jijietcom_309157.jpg,,"🌟Black Angel Cocoa Butter lotion 👉24 hour moisture 👉Made from cocoa butter 👉Protomotes healthy skin 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,772,data/raw/media\@jijietcom_309157.jpg,,"🌟Black Angel Cocoa Butter lotion 👉24 hour moisture 👉Made from cocoa butter 👉Protomotes healthy skin 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Black Angel Cocoa Butter lotion 24 hour moisture Made from cocoa butter Protomotes healthy skin Contact Cosmobeki call 0947-737475 0947-767778 l Price 500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309156,2025-06-21T11:26:15+00:00,"🌟CeraVe PM Facial Moisturizer Lotion 
 
 👉Formulated to lock in your skin's moisture 
@@ -192,7 +192,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1423,data/raw/media\@jijietcom_309156.jpg,,"🌟CeraVe PM Facial Moisturizer Lotion 👉Formulated to lock in your skin's moisture 👉Helps to restore your skin's natural barrier 👉Developed with Dermatologists 👉Suitable for all skin type 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =3,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1423,data/raw/media\@jijietcom_309156.jpg,,"🌟CeraVe PM Facial Moisturizer Lotion 👉Formulated to lock in your skin's moisture 👉Helps to restore your skin's natural barrier 👉Developed with Dermatologists 👉Suitable for all skin type 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =3,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","CeraVe PM Facial Moisturizer Lotion Formulated to lock in your skin s moisture Helps to restore your skin s natural barrier Developed with Dermatologists Suitable for all skin type Contact Cosmobeki call 0947-737475 0947-767778 l Price 3,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309155,2025-06-21T11:26:01+00:00,"🌟Carrot Whitening Oil
 
 👉Carrot oil's ability to brighten skin is largely due to its high beta-carotene content 
@@ -209,7 +209,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,974,data/raw/media\@jijietcom_309155.jpg,,"🌟Carrot Whitening Oil 👉Carrot oil's ability to brighten skin is largely due to its high beta-carotene content 👉lt deeply nourishes the skin 👉Promoting a healthy and radiant glow 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,974,data/raw/media\@jijietcom_309155.jpg,,"🌟Carrot Whitening Oil 👉Carrot oil's ability to brighten skin is largely due to its high beta-carotene content 👉lt deeply nourishes the skin 👉Promoting a healthy and radiant glow 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Carrot Whitening Oil Carrot oil s ability to brighten skin is largely due to its high beta-carotene content lt deeply nourishes the skin Promoting a healthy and radiant glow Contact Cosmobeki call 0947-737475 0947-767778 l Price 2,800 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309154,2025-06-21T11:25:52+00:00,"🌟Dr Rashel 5 Piece Set
 
 👉lt will help fade sun spots and discoloration 
@@ -227,15 +227,15 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1186,data/raw/media\@jijietcom_309154.jpg,,"🌟Dr Rashel 5 Piece Set 👉lt will help fade sun spots and discoloration 👉Refine skin texture 👉Reduce wrinkle formation 👉Minimize existing wrinkles 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
-@jijietcom,309153,2025-06-21T11:25:50+00:00,,673199234,0,data/raw/media\@jijietcom_309153.jpg,,
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1186,data/raw/media\@jijietcom_309154.jpg,,"🌟Dr Rashel 5 Piece Set 👉lt will help fade sun spots and discoloration 👉Refine skin texture 👉Reduce wrinkle formation 👉Minimize existing wrinkles 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Dr Rashel 5 Piece ስብስብ lt will help fade sun spots and discoloration Refine skin texture Reduce wrinkle formation Minimize existing wrinkles Contact Cosmobeki call 0947-737475 0947-767778 l Price 4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+@jijietcom,309153,2025-06-21T11:25:50+00:00,,673199234,0,data/raw/media\@jijietcom_309153.jpg,,,
 @jijietcom,309152,2025-06-21T11:25:50+00:00,"Samsung Ultra 21
 Internal storage:256gb
 RAM:12gb
 No crack 
 Price:40,000
 0945677890
-Dm sura_mg01",673199234,0,data/raw/media\@jijietcom_309152.jpg,,"Samsung Ultra 21 Internal storage:256gb RAM:12gb No crack Price:40,000 0945677890 Dm sura_mg01"
+Dm sura_mg01",673199234,0,data/raw/media\@jijietcom_309152.jpg,,"Samsung Ultra 21 Internal storage:256gb RAM:12gb No crack Price:40,000 0945677890 Dm sura_mg01","Samsung Ultra 21 Internal storage 256gb RAM 12gb No crack Price 40,000 0945677890 Dm sura_mg01"
 @jijietcom,309151,2025-06-21T11:25:47+00:00,"🌟Black Angle Lips Gloss
 
 👉Helps to hydrate and protect your lips
@@ -251,7 +251,7 @@ Dm sura_mg01",673199234,0,data/raw/media\@jijietcom_309152.jpg,,"Samsung Ultra 2
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,975,data/raw/media\@jijietcom_309151.jpg,,"🌟Black Angle Lips Gloss 👉Helps to hydrate and protect your lips 👉Helps to make your lips look fuller and more youthful 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,975,data/raw/media\@jijietcom_309151.jpg,,"🌟Black Angle Lips Gloss 👉Helps to hydrate and protect your lips 👉Helps to make your lips look fuller and more youthful 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Black Angle Lips Gloss Helps to hydrate and protect your lips Helps to make your lips look fuller and more youthful Contact Cosmobeki call 0947-737475 0947-767778 l Price 500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309150,2025-06-21T11:25:09+00:00,"🌟Eucerine Pigment Cotrol Tinted SunScreen
 
 👉94% effectively prevents and reduces sun - induced hyperpigmentation 
@@ -270,7 +270,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1103,data/raw/media\@jijietcom_309150.jpg,,"🌟Eucerine Pigment Cotrol Tinted SunScreen 👉94% effectively prevents and reduces sun - induced hyperpigmentation 👉lnstantly unifies skin tone 👉Effectively covers impurities and imperfections immediately 👉Provides a Long-lasting matte finish 👉Provides a light texture 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1103,data/raw/media\@jijietcom_309150.jpg,,"🌟Eucerine Pigment Cotrol Tinted SunScreen 👉94% effectively prevents and reduces sun - induced hyperpigmentation 👉lnstantly unifies skin tone 👉Effectively covers impurities and imperfections immediately 👉Provides a Long-lasting matte finish 👉Provides a light texture 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Eucerine Pigment Cotrol Tinted SunScreen 94 effectively prevents and reduces sun - induced hyperpigmentation lnstantly unifies skin tone Effectively covers impurities and imperfections immediately Provides a Long-lasting matte finish Provides a light texture Contact Cosmobeki call 0947-737475 0947-767778 l Price 4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309149,2025-06-21T11:25:00+00:00,"🌟Joy Lip Guard 
 
 👉Provides a protective barrier to shield your lips from environmental stressors like wind,cold and pollution 
@@ -287,7 +287,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,962,data/raw/media\@jijietcom_309149.jpg,,"🌟Joy Lip Guard 👉Provides a protective barrier to shield your lips from environmental stressors like wind,cold and pollution 👉Enhances lip health 👉Promotes overall lip health,preventing cracking, peeling and discomfort 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,962,data/raw/media\@jijietcom_309149.jpg,,"🌟Joy Lip Guard 👉Provides a protective barrier to shield your lips from environmental stressors like wind,cold and pollution 👉Enhances lip health 👉Promotes overall lip health,preventing cracking, peeling and discomfort 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","Joy Lip Guard Provides a protective barrier to shield your lips from environmental stressors like wind,cold and pollution Enhances lip health Promotes overall lip health,preventing cracking, peeling and discomfort Contact Cosmobeki call 0947-737475 0947-767778 l Price 500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309148,2025-06-21T11:24:50+00:00,"🌟La-roche Posay Toleriane Double Cleansing Foaming Gel
 
 👉Cleanses skin of dirt,makeup and impurities 
@@ -305,7 +305,7 @@ Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesh
 
 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel.
 
-መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1331,data/raw/media\@jijietcom_309148.jpg,,"🌟La-roche Posay Toleriane Double Cleansing Foaming Gel 👉Cleanses skin of dirt,makeup and impurities 👉Removes excess oil while maintaining the skin's natural moisture barrier and pH 👉Leaves skin feeling clean, fresh and comfortable 👉Foaming properties leave no pore - clogging residu 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
+መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት።",7437782350,1331,data/raw/media\@jijietcom_309148.jpg,,"🌟La-roche Posay Toleriane Double Cleansing Foaming Gel 👉Cleanses skin of dirt,makeup and impurities 👉Removes excess oil while maintaining the skin's natural moisture barrier and pH 👉Leaves skin feeling clean, fresh and comfortable 👉Foaming properties leave no pore - clogging residu 👥Contact @Cosmobeki 📞 call 0947-737475 0947-767778 💰💰l = Price =4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት","La-roche Posay Toleriane Double Cleansing Foaming Gel Cleanses skin of dirt,makeup and impurities Removes excess oil while maintaining the skin s natural moisture barrier and pH Leaves skin feeling clean, fresh and comfortable Foaming properties leave no pore - clogging residu Contact Cosmobeki call 0947-737475 0947-767778 l Price 4,500 Address - Megenagna, on the Road from zefmesh to Sholla, Infront of Mesob Habesha Hotel. መገናኛ, ከዘፍመሽ ወደ ሾላ ገበያ በሚወስደዉ መንገድ ላይ ከመሶብ ሀበሻ ሆቴል ፊት ለፊት"
 @jijietcom,309147,2025-06-21T11:11:15+00:00,"iPhone ስልኮች እንገዛለን
 0963571010
 
@@ -331,7 +331,7 @@ Exchange ✅
 Face id✅
 True tone✅
 price
-0963571010",6147944636,0,data/raw/media\@jijietcom_309147.jpg,,iPhone ስልኮች እንገዛለን 0963571010 iphone 11 pro max Storage 256 Battery 88 iCloud free✅ Exchange ✅ Face id✅ True tone✅ price 0963571010 iPhone ስልኮች እንገዛለን 0963571010 iphone 12 Storage 64 Battery 90 iCloud free✅ Exchange ✅ Face id✅ True tone✅ price 0963571010
+0963571010",6147944636,0,data/raw/media\@jijietcom_309147.jpg,,iPhone ስልኮች እንገዛለን 0963571010 iphone 11 pro max Storage 256 Battery 88 iCloud free✅ Exchange ✅ Face id✅ True tone✅ price 0963571010 iPhone ስልኮች እንገዛለን 0963571010 iphone 12 Storage 64 Battery 90 iCloud free✅ Exchange ✅ Face id✅ True tone✅ price 0963571010,iPhone ስልኮች እንገዛለን 0963571010 iphone 11 pro max Storage 256 Battery 88 iCloud free Exchange Face id True tone price 0963571010 iPhone ስልኮች እንገዛለን 0963571010 iphone 12 Storage 64 Battery 90 iCloud free Exchange Face id True tone price 0963571010
 @jijietcom,309144,2025-06-21T10:57:21+00:00,"ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ  ሁሉንም IPHONE SAMSUNG  ስልኮች እንገዛለን
 Exchange enadergalen 👉ስልክ በ ስልክ እንቀይራለን
 SAMSUNG                  iphone 7
@@ -357,12 +357,12 @@ A20 A21 A 21s.           iphone8 plus
                          iphone 13 14 ……..
 
 ሁሉንም Samsung iPhone engezalen
-☎️ 0961369276",878728285,0,data/raw/media\@jijietcom_309144.jpg,,ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen 👉ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03……. iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 …….. ሁሉንም Samsung iPhone engezalen ☎️ 0961369276 ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen 👉ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03……. iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 …….. ሁሉንም Samsung iPhone engezalen ☎️ 0961369276
-@jijietcom,309137,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309137.jpg,,
-@jijietcom,309136,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309136.jpg,,
-@jijietcom,309135,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309135.jpg,,
-@jijietcom,309134,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309134.jpg,,
-@jijietcom,309133,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309133.jpg,,
+☎️ 0961369276",878728285,0,data/raw/media\@jijietcom_309144.jpg,,ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen 👉ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03……. iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 …….. ሁሉንም Samsung iPhone engezalen ☎️ 0961369276 ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen 👉ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03……. iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 …….. ሁሉንም Samsung iPhone engezalen ☎️ 0961369276,ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03 . iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 .. ሁሉንም Samsung iPhone engezalen 0961369276 ስክሪን የፈሰሱ ምት ያለባቸዉ እና ንፁህ ሁሉንም IPHONE SAMSUNG ስልኮች እንገዛለን Exchange enadergalen ስልክ በ ስልክ እንቀይራለን SAMSUNG iphone 7 A01 A02 A03 . iphone8 A20 A21 A 21s. iphone8 plus iphone x xr xs xsmax 0961369276 iPhone 11 11 pro max iphone 12 12 pro max iphone 13 14 .. ሁሉንም Samsung iPhone engezalen 0961369276
+@jijietcom,309137,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309137.jpg,,,
+@jijietcom,309136,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309136.jpg,,,
+@jijietcom,309135,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309135.jpg,,,
+@jijietcom,309134,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309134.jpg,,,
+@jijietcom,309133,2025-06-21T10:36:41+00:00,,7633800741,0,data/raw/media\@jijietcom_309133.jpg,,,
 @jijietcom,309132,2025-06-21T10:36:41+00:00,"🔥🔥SAMSUNG GALAXY A73 5G
 🎛Snapdragon  5G chipset
 ♨️Android version 14 one UI 6.1
@@ -378,19 +378,19 @@ Price:43,500ETB
 
 
 
-Call 0916052084",7633800741,0,data/raw/media\@jijietcom_309132.jpg,,"🔥🔥SAMSUNG GALAXY A73 5G 🎛Snapdragon 5G chipset ♨️Android version 14 one UI 6.1 📶 Dual Sim/Support 5G network 📸Quad camera/64MP 🔓 Onscreen mounted fingerprint sensor 💎 Display-Super AMOLED plus 🔋 #5,000 mAh Battery capacity ⏳8GB RAM 📼 #256GB storage Price:43,500ETB Call 0916052084"
-@jijietcom,309129,2025-06-21T10:28:11+00:00,,6705095954,1188,data/raw/media\@jijietcom_309129.jpg,,
-@jijietcom,309128,2025-06-21T10:28:11+00:00,,6705095954,1280,data/raw/media\@jijietcom_309128.jpg,,
+Call 0916052084",7633800741,0,data/raw/media\@jijietcom_309132.jpg,,"🔥🔥SAMSUNG GALAXY A73 5G 🎛Snapdragon 5G chipset ♨️Android version 14 one UI 6.1 📶 Dual Sim/Support 5G network 📸Quad camera/64MP 🔓 Onscreen mounted fingerprint sensor 💎 Display-Super AMOLED plus 🔋 #5,000 mAh Battery capacity ⏳8GB RAM 📼 #256GB storage Price:43,500ETB Call 0916052084","SAMSUNG GALAXY A73 5G Snapdragon 5G chipset Android version 14 one UI 6.1 Dual Sim Support 5G network Quad camera 64MP Onscreen mounted fingerprint sensor Display-Super AMOLED plus 5,000 mAh Battery capacity 8GB RAM 256GB storage Price 43,500ETB Call 0916052084"
+@jijietcom,309129,2025-06-21T10:28:11+00:00,,6705095954,1188,data/raw/media\@jijietcom_309129.jpg,,,
+@jijietcom,309128,2025-06-21T10:28:11+00:00,,6705095954,1280,data/raw/media\@jijietcom_309128.jpg,,,
 @jijietcom,309127,2025-06-21T10:28:10+00:00,"iPhone 8 Plus
 Storage 64gb
 Battery 81%
 iCloud free
 Finger print work
 Price 11k
-Call 0993275285",6705095954,1161,data/raw/media\@jijietcom_309127.jpg,,iPhone 8 Plus Storage 64gb Battery 81% iCloud free Finger print work Price 11k Call 0993275285
-@jijietcom,309125,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309125.jpg,,
-@jijietcom,309124,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309124.jpg,,
-@jijietcom,309123,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309123.jpg,,
+Call 0993275285",6705095954,1161,data/raw/media\@jijietcom_309127.jpg,,iPhone 8 Plus Storage 64gb Battery 81% iCloud free Finger print work Price 11k Call 0993275285,iPhone 8 Plus Storage 64gb Battery 81 iCloud free Finger print work Price 11k Call 0993275285
+@jijietcom,309125,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309125.jpg,,,
+@jijietcom,309124,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309124.jpg,,,
+@jijietcom,309123,2025-06-21T10:20:47+00:00,,441731279,0,data/raw/media\@jijietcom_309123.jpg,,,
 @jijietcom,309122,2025-06-21T10:08:29+00:00,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹
 
 Urgent Vacancy  14/10/2017
@@ -416,7 +416,7 @@ https://t.me/newhomecare
 
 Join to My TG channel and TG Group for more job vacancy 
 
-Please don't forget to share 👍",2039125093,0,data/raw/media\@jijietcom_309122.jpg,,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹 Urgent Vacancy 14/10/2017 1.I need female nurse with 0 year experience and license around #Torhayiloch for Dental clinic 2.I need male/female Druggist with 3 years experience with license and clearance around #Sendafa for pharmacy 3.I need male/female Pharmacist with 1 year experience and with license and clearance around #Sendafa for pharmacy Inbox me @Siskoyee 📞 0799837095 📞 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https://t.me/Newhealthinfo2 TG group https://t.me/newhomecare Join to My TG channel and TG Group for more job vacancy Please don't forget to share 👍"
+Please don't forget to share 👍",2039125093,0,data/raw/media\@jijietcom_309122.jpg,,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹 Urgent Vacancy 14/10/2017 1.I need female nurse with 0 year experience and license around #Torhayiloch for Dental clinic 2.I need male/female Druggist with 3 years experience with license and clearance around #Sendafa for pharmacy 3.I need male/female Pharmacist with 1 year experience and with license and clearance around #Sendafa for pharmacy Inbox me @Siskoyee 📞 0799837095 📞 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https://t.me/Newhealthinfo2 TG group https://t.me/newhomecare Join to My TG channel and TG Group for more job vacancy Please don't forget to share 👍","NEW HOME CARE Urgent Vacancy 14 10 2017 1.I need female nurse with 0 year experience and license around Torhayiloch for Dental clinic 2.I need male female Druggist with 3 years experience with license and clearance around Sendafa for pharmacy 3.I need male female Pharmacist with 1 year experience and with license and clearance around Sendafa for pharmacy Inbox me Siskoyee 0799837095 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https t.me Newhealthinfo2 TG group https t.me newhomecare Join to My TG channel and TG Group for more job vacancy Please don t forget to share"
 @jijietcom,309121,2025-06-21T10:08:22+00:00,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹
 
 Urgent Vacancy  14/10/2017
@@ -442,10 +442,10 @@ https://t.me/newhomecare
 
 Join to My TG channel and TG Group for more job vacancy 
 
-Please don't forget to share 👍",2039125093,0,data/raw/media\@jijietcom_309121.jpg,,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹 Urgent Vacancy 14/10/2017 1.I need female nurse with 0 year experience and license around #Torhayiloch for Dental clinic 2.I need male/female Druggist with 3 years experience with license and clearance around #Sendafa for pharmacy 3.I need male/female Pharmacist with 1 year experience and with license and clearance around #Sendafa for pharmacy Inbox me @Siskoyee 📞 0799837095 📞 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https://t.me/Newhealthinfo2 TG group https://t.me/newhomecare Join to My TG channel and TG Group for more job vacancy Please don't forget to share 👍"
-@jijietcom,309120,2025-06-21T10:06:08+00:00,,850303115,144,data/raw/media\@jijietcom_309120.jpg,,
-@jijietcom,309119,2025-06-21T10:06:08+00:00,,850303115,151,data/raw/media\@jijietcom_309119.jpg,,
-@jijietcom,309118,2025-06-21T10:06:08+00:00,,850303115,144,data/raw/media\@jijietcom_309118.jpg,,
+Please don't forget to share 👍",2039125093,0,data/raw/media\@jijietcom_309121.jpg,,"NEW HOME CARE 🇪🇹🇪🇹🇪🇹 Urgent Vacancy 14/10/2017 1.I need female nurse with 0 year experience and license around #Torhayiloch for Dental clinic 2.I need male/female Druggist with 3 years experience with license and clearance around #Sendafa for pharmacy 3.I need male/female Pharmacist with 1 year experience and with license and clearance around #Sendafa for pharmacy Inbox me @Siskoyee 📞 0799837095 📞 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https://t.me/Newhealthinfo2 TG group https://t.me/newhomecare Join to My TG channel and TG Group for more job vacancy Please don't forget to share 👍","NEW HOME CARE Urgent Vacancy 14 10 2017 1.I need female nurse with 0 year experience and license around Torhayiloch for Dental clinic 2.I need male female Druggist with 3 years experience with license and clearance around Sendafa for pharmacy 3.I need male female Pharmacist with 1 year experience and with license and clearance around Sendafa for pharmacy Inbox me Siskoyee 0799837095 0993339170 For more Home care, clinic, Diagnostic center,Hospital and health related job vacancy join TG Channel https t.me Newhealthinfo2 TG group https t.me newhomecare Join to My TG channel and TG Group for more job vacancy Please don t forget to share"
+@jijietcom,309120,2025-06-21T10:06:08+00:00,,850303115,144,data/raw/media\@jijietcom_309120.jpg,,,
+@jijietcom,309119,2025-06-21T10:06:08+00:00,,850303115,151,data/raw/media\@jijietcom_309119.jpg,,,
+@jijietcom,309118,2025-06-21T10:06:08+00:00,,850303115,144,data/raw/media\@jijietcom_309118.jpg,,,
 @jijietcom,309117,2025-06-21T10:06:08+00:00,"10pcs Avialable
 
 👉hp Probook X360 440 G1
@@ -468,11 +468,11 @@ Please don't forget to share 👍",2039125093,0,data/raw/media\@jijietcom_309121
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,141,data/raw/media\@jijietcom_309117.jpg,,"10pcs Avialable 👉hp Probook X360 440 G1 . 👉Core i3 8th Generation 👉Base Speed 2.2GHZ 👉RAM 8gb 👉Storage 512gb SSD 👉Screen Size 14.1inch 👉Touch Screen 👉Price 33,500 ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309116,2025-06-21T10:06:08+00:00,,850303115,101,data/raw/media\@jijietcom_309116.jpg,,
-@jijietcom,309115,2025-06-21T10:06:08+00:00,,850303115,108,data/raw/media\@jijietcom_309115.jpg,,
-@jijietcom,309114,2025-06-21T10:06:08+00:00,,850303115,114,data/raw/media\@jijietcom_309114.jpg,,
-@jijietcom,309113,2025-06-21T10:06:08+00:00,,850303115,103,data/raw/media\@jijietcom_309113.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,141,data/raw/media\@jijietcom_309117.jpg,,"10pcs Avialable 👉hp Probook X360 440 G1 . 👉Core i3 8th Generation 👉Base Speed 2.2GHZ 👉RAM 8gb 👉Storage 512gb SSD 👉Screen Size 14.1inch 👉Touch Screen 👉Price 33,500 ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","10pcs Avialable hp Probook X360 440 G1 . Core i3 8th Generation Base Speed 2.2GHZ RAM 8gb Storage 512gb SSD Screen Size 14.1inch Touch Screen Price 33,500 ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309116,2025-06-21T10:06:08+00:00,,850303115,101,data/raw/media\@jijietcom_309116.jpg,,,
+@jijietcom,309115,2025-06-21T10:06:08+00:00,,850303115,108,data/raw/media\@jijietcom_309115.jpg,,,
+@jijietcom,309114,2025-06-21T10:06:08+00:00,,850303115,114,data/raw/media\@jijietcom_309114.jpg,,,
+@jijietcom,309113,2025-06-21T10:06:08+00:00,,850303115,103,data/raw/media\@jijietcom_309113.jpg,,,
 @jijietcom,309112,2025-06-21T10:06:08+00:00,"10pcs Avilable
 👉hp Probook Laptop 15
 
@@ -492,12 +492,12 @@ tiktok.com/@eriken_computer
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,94,data/raw/media\@jijietcom_309112.jpg,,"10pcs Avilable 👉hp Probook Laptop 15 👉Model 440 G4 👉Core i5- 7th Generation 👉RAM 8gb 👉Storage 1000gb HDD 👉Screen size 15.6inch 👉Price 💸 34,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309111,2025-06-21T10:06:08+00:00,,850303115,103,data/raw/media\@jijietcom_309111.jpg,,
-@jijietcom,309110,2025-06-21T10:06:08+00:00,,850303115,113,data/raw/media\@jijietcom_309110.jpg,,
-@jijietcom,309109,2025-06-21T10:06:08+00:00,,850303115,117,data/raw/media\@jijietcom_309109.jpg,,
-@jijietcom,309108,2025-06-21T10:06:08+00:00,,850303115,106,data/raw/media\@jijietcom_309108.jpg,,
-@jijietcom,309107,2025-06-21T10:06:08+00:00,,850303115,98,data/raw/media\@jijietcom_309107.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,94,data/raw/media\@jijietcom_309112.jpg,,"10pcs Avilable 👉hp Probook Laptop 15 👉Model 440 G4 👉Core i5- 7th Generation 👉RAM 8gb 👉Storage 1000gb HDD 👉Screen size 15.6inch 👉Price 💸 34,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","10pcs Avilable hp Probook ላፕቶፕ 15 Model 440 G4 Core i5- 7th Generation RAM 8gb Storage 1000gb HDD Screen size 15.6inch Price 34,500ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309111,2025-06-21T10:06:08+00:00,,850303115,103,data/raw/media\@jijietcom_309111.jpg,,,
+@jijietcom,309110,2025-06-21T10:06:08+00:00,,850303115,113,data/raw/media\@jijietcom_309110.jpg,,,
+@jijietcom,309109,2025-06-21T10:06:08+00:00,,850303115,117,data/raw/media\@jijietcom_309109.jpg,,,
+@jijietcom,309108,2025-06-21T10:06:08+00:00,,850303115,106,data/raw/media\@jijietcom_309108.jpg,,,
+@jijietcom,309107,2025-06-21T10:06:08+00:00,,850303115,98,data/raw/media\@jijietcom_309107.jpg,,,
 @jijietcom,309106,2025-06-21T10:06:08+00:00,"20 pcs avialable
 
 👉hp Probook Laptop 15
@@ -518,12 +518,12 @@ tiktok.com/@eriken_computer
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,93,data/raw/media\@jijietcom_309106.jpg,,"20 pcs avialable 👉hp Probook Laptop 15 👉Model 440 G4 👉Core i7- 7th Generation 👉RAM 8gb 👉Storage 1000gb HDD 👉Screen size 15.6inch 👉Price 💸 41,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309105,2025-06-21T10:06:08+00:00,,850303115,82,data/raw/media\@jijietcom_309105.jpg,,
-@jijietcom,309104,2025-06-21T10:06:08+00:00,,850303115,82,data/raw/media\@jijietcom_309104.jpg,,
-@jijietcom,309103,2025-06-21T10:06:07+00:00,,850303115,91,data/raw/media\@jijietcom_309103.jpg,,
-@jijietcom,309102,2025-06-21T10:06:07+00:00,,850303115,81,data/raw/media\@jijietcom_309102.jpg,,
-@jijietcom,309101,2025-06-21T10:06:07+00:00,,850303115,78,data/raw/media\@jijietcom_309101.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,93,data/raw/media\@jijietcom_309106.jpg,,"20 pcs avialable 👉hp Probook Laptop 15 👉Model 440 G4 👉Core i7- 7th Generation 👉RAM 8gb 👉Storage 1000gb HDD 👉Screen size 15.6inch 👉Price 💸 41,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","20 pcs avialable hp Probook ላፕቶፕ 15 Model 440 G4 Core i7- 7th Generation RAM 8gb Storage 1000gb HDD Screen size 15.6inch Price 41,500ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309105,2025-06-21T10:06:08+00:00,,850303115,82,data/raw/media\@jijietcom_309105.jpg,,,
+@jijietcom,309104,2025-06-21T10:06:08+00:00,,850303115,82,data/raw/media\@jijietcom_309104.jpg,,,
+@jijietcom,309103,2025-06-21T10:06:07+00:00,,850303115,91,data/raw/media\@jijietcom_309103.jpg,,,
+@jijietcom,309102,2025-06-21T10:06:07+00:00,,850303115,81,data/raw/media\@jijietcom_309102.jpg,,,
+@jijietcom,309101,2025-06-21T10:06:07+00:00,,850303115,78,data/raw/media\@jijietcom_309101.jpg,,,
 @jijietcom,309100,2025-06-21T10:06:07+00:00,"15pcs Avialable
 
 👉hp Probook Laptop 15
@@ -544,7 +544,7 @@ tiktok.com/@eriken_computer
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,76,data/raw/media\@jijietcom_309100.jpg,,"15pcs Avialable 👉hp Probook Laptop 15 👉Core i3 7th Generation 👉RAM 8gb 👉Storage 500gb HDD 👉Screen size 15.6inch 👉Price 💸 25,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,76,data/raw/media\@jijietcom_309100.jpg,,"15pcs Avialable 👉hp Probook Laptop 15 👉Core i3 7th Generation 👉RAM 8gb 👉Storage 500gb HDD 👉Screen size 15.6inch 👉Price 💸 25,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","15pcs Avialable hp Probook ላፕቶፕ 15 Core i3 7th Generation RAM 8gb Storage 500gb HDD Screen size 15.6inch Price 25,500ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
 @jijietcom,309099,2025-06-21T10:05:56+00:00,"15pcs Avialable
 
 👉hp Probook Laptop 15
@@ -565,12 +565,12 @@ tiktok.com/@eriken_computer
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,76,data/raw/media\@jijietcom_309099.jpg,,"15pcs Avialable 👉hp Probook Laptop 15 👉Core i3 7th Generation 👉RAM 8gb 👉Storage 500gb HDD 👉Screen size 15.6inch 👉Price 💸 25,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309098,2025-06-21T10:05:56+00:00,,850303115,171,data/raw/media\@jijietcom_309098.jpg,,
-@jijietcom,309097,2025-06-21T10:05:56+00:00,,850303115,191,data/raw/media\@jijietcom_309097.jpg,,
-@jijietcom,309096,2025-06-21T10:05:56+00:00,,850303115,207,data/raw/media\@jijietcom_309096.jpg,,
-@jijietcom,309095,2025-06-21T10:05:56+00:00,,850303115,182,data/raw/media\@jijietcom_309095.jpg,,
-@jijietcom,309094,2025-06-21T10:05:56+00:00,,850303115,169,data/raw/media\@jijietcom_309094.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,76,data/raw/media\@jijietcom_309099.jpg,,"15pcs Avialable 👉hp Probook Laptop 15 👉Core i3 7th Generation 👉RAM 8gb 👉Storage 500gb HDD 👉Screen size 15.6inch 👉Price 💸 25,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","15pcs Avialable hp Probook ላፕቶፕ 15 Core i3 7th Generation RAM 8gb Storage 500gb HDD Screen size 15.6inch Price 25,500ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309098,2025-06-21T10:05:56+00:00,,850303115,171,data/raw/media\@jijietcom_309098.jpg,,,
+@jijietcom,309097,2025-06-21T10:05:56+00:00,,850303115,191,data/raw/media\@jijietcom_309097.jpg,,,
+@jijietcom,309096,2025-06-21T10:05:56+00:00,,850303115,207,data/raw/media\@jijietcom_309096.jpg,,,
+@jijietcom,309095,2025-06-21T10:05:56+00:00,,850303115,182,data/raw/media\@jijietcom_309095.jpg,,,
+@jijietcom,309094,2025-06-21T10:05:56+00:00,,850303115,169,data/raw/media\@jijietcom_309094.jpg,,,
 @jijietcom,309093,2025-06-21T10:05:56+00:00,"🌀 3-Axis Gimbal = Super Smooth Shots
 🔋 14hr Battery | OLED Display
 🎒 Compact & Portable
@@ -584,10 +584,10 @@ tiktok.com/@eriken_computer
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,167,data/raw/media\@jijietcom_309093.jpg,,"🌀 3-Axis Gimbal = Super Smooth Shots 🔋 14hr Battery | OLED Display 🎒 Compact & Portable 🎮 Strong Motor – Works with DSLR & Mirrorless 📱 Real-time phone monitor 🎬 For Vloggers, Events, YouTubers & Creators 💸Price 48,500 ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309092,2025-06-21T10:05:56+00:00,,850303115,133,data/raw/media\@jijietcom_309092.jpg,,
-@jijietcom,309091,2025-06-21T10:05:56+00:00,,850303115,148,data/raw/media\@jijietcom_309091.jpg,,
-@jijietcom,309090,2025-06-21T10:05:56+00:00,,850303115,136,data/raw/media\@jijietcom_309090.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,167,data/raw/media\@jijietcom_309093.jpg,,"🌀 3-Axis Gimbal = Super Smooth Shots 🔋 14hr Battery | OLED Display 🎒 Compact & Portable 🎮 Strong Motor – Works with DSLR & Mirrorless 📱 Real-time phone monitor 🎬 For Vloggers, Events, YouTubers & Creators 💸Price 48,500 ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","3-Axis Gimbal Super Smooth Shots 14hr Battery OLED Display Compact Portable Strong Motor Works with DSLR Mirrorless Real-time phone monitor For Vloggers, Events, YouTubers Creators Price 48,500 ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309092,2025-06-21T10:05:56+00:00,,850303115,133,data/raw/media\@jijietcom_309092.jpg,,,
+@jijietcom,309091,2025-06-21T10:05:56+00:00,,850303115,148,data/raw/media\@jijietcom_309091.jpg,,,
+@jijietcom,309090,2025-06-21T10:05:56+00:00,,850303115,136,data/raw/media\@jijietcom_309090.jpg,,,
 @jijietcom,309089,2025-06-21T10:05:56+00:00,"✅❇️✅Hp notebook core i3 11th 
 
 ✅Core i3 Processor 
@@ -606,11 +606,11 @@ Keyboard Backlight
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,158,data/raw/media\@jijietcom_309089.jpg,,"✅❇️✅Hp notebook core i3 11th ✅Core i3 Processor ✅11th generation ✅8GB DDR4 Ram ✅512GB SSD Storage ✅Intel hd graphics Keyboard Backlight ✅PRICE : 42,000ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309088,2025-06-21T10:05:56+00:00,,850303115,153,data/raw/media\@jijietcom_309088.jpg,,
-@jijietcom,309087,2025-06-21T10:05:56+00:00,,850303115,165,data/raw/media\@jijietcom_309087.jpg,,
-@jijietcom,309086,2025-06-21T10:05:56+00:00,,850303115,169,data/raw/media\@jijietcom_309086.jpg,,
-@jijietcom,309085,2025-06-21T10:05:56+00:00,,850303115,152,data/raw/media\@jijietcom_309085.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,158,data/raw/media\@jijietcom_309089.jpg,,"✅❇️✅Hp notebook core i3 11th ✅Core i3 Processor ✅11th generation ✅8GB DDR4 Ram ✅512GB SSD Storage ✅Intel hd graphics Keyboard Backlight ✅PRICE : 42,000ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","Hp notebook core i3 11th Core i3 Processor 11th generation 8GB DDR4 Ram 512GB SSD Storage Intel hd graphics Keyboard Backlight PRICE 42,000ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309088,2025-06-21T10:05:56+00:00,,850303115,153,data/raw/media\@jijietcom_309088.jpg,,,
+@jijietcom,309087,2025-06-21T10:05:56+00:00,,850303115,165,data/raw/media\@jijietcom_309087.jpg,,,
+@jijietcom,309086,2025-06-21T10:05:56+00:00,,850303115,169,data/raw/media\@jijietcom_309086.jpg,,,
+@jijietcom,309085,2025-06-21T10:05:56+00:00,,850303115,152,data/raw/media\@jijietcom_309085.jpg,,,
 @jijietcom,309084,2025-06-21T10:05:56+00:00,"👍🏼Microsoft surface laptop go
 
 New arival Packed Laptop 
@@ -631,10 +631,10 @@ New arival Packed Laptop
 Tiktok
 tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,145,data/raw/media\@jijietcom_309084.jpg,,"👍🏼Microsoft surface laptop go New arival Packed Laptop ⚙️core i5 10th generation 📺13 inch XDR display 👍🏼128GB SSD storage 👍🏼8 GB GB ram 👍🏼Battery 🔋100% 🔋Price 58,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309083,2025-06-21T10:05:56+00:00,,850303115,141,data/raw/media\@jijietcom_309083.jpg,,
-@jijietcom,309082,2025-06-21T10:05:56+00:00,,850303115,161,data/raw/media\@jijietcom_309082.jpg,,
-@jijietcom,309081,2025-06-21T10:05:56+00:00,,850303115,157,data/raw/media\@jijietcom_309081.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,145,data/raw/media\@jijietcom_309084.jpg,,"👍🏼Microsoft surface laptop go New arival Packed Laptop ⚙️core i5 10th generation 📺13 inch XDR display 👍🏼128GB SSD storage 👍🏼8 GB GB ram 👍🏼Battery 🔋100% 🔋Price 58,500ETB 👉Call 📞+251926228220 Tiktok tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","Microsoft surface ላፕቶፕ go New arival Packed ላፕቶፕ core i5 10th generation 13 inch XDR display 128GB SSD storage 8 GB GB ram Battery 100 Price 58,500ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309083,2025-06-21T10:05:56+00:00,,850303115,141,data/raw/media\@jijietcom_309083.jpg,,,
+@jijietcom,309082,2025-06-21T10:05:56+00:00,,850303115,161,data/raw/media\@jijietcom_309082.jpg,,,
+@jijietcom,309081,2025-06-21T10:05:56+00:00,,850303115,157,data/raw/media\@jijietcom_309081.jpg,,,
 @jijietcom,309080,2025-06-21T10:05:55+00:00,"➡️16-inch MacBook Pro with apple M1 pro chip
 
 🫶512 SSD storage
@@ -658,10 +658,10 @@ tiktok.com/@eriken_computer
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,139,data/raw/media\@jijietcom_309080.jpg,,➡️16-inch MacBook Pro with apple M1 pro chip 🫶512 SSD storage ➡️16GB unified memory ➡️16.2-inch(diagonal) Liquid Retina XDR display with proMotion technology ➡️10-core CPU and 16-core GPU 🫡3456 by 2234 pixels 🤯Full size backlit magic keyboard and touch id ➡️Three Thunderbolt 4(USB-C) ports 😍 101cycle count only 💰205.000ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...
-@jijietcom,309079,2025-06-21T10:05:55+00:00,,850303115,135,data/raw/media\@jijietcom_309079.jpg,,
-@jijietcom,309078,2025-06-21T10:05:55+00:00,,850303115,138,data/raw/media\@jijietcom_309078.jpg,,
-@jijietcom,309077,2025-06-21T10:05:55+00:00,,850303115,131,data/raw/media\@jijietcom_309077.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,139,data/raw/media\@jijietcom_309080.jpg,,➡️16-inch MacBook Pro with apple M1 pro chip 🫶512 SSD storage ➡️16GB unified memory ➡️16.2-inch(diagonal) Liquid Retina XDR display with proMotion technology ➡️10-core CPU and 16-core GPU 🫡3456 by 2234 pixels 🤯Full size backlit magic keyboard and touch id ➡️Three Thunderbolt 4(USB-C) ports 😍 101cycle count only 💰205.000ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...,16-inch MacBook Pro with apple M1 pro chip 512 SSD storage 16GB unified memory 16.2-inch(diagonal) Liquid Retina XDR display with proMotion technology 10-core CPU and 16-core GPU 3456 by 2234 pixels Full size backlit magic keyboard and touch id Three Thunderbolt 4(USB-C) ports 101cycle count only 205.000ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ...
+@jijietcom,309079,2025-06-21T10:05:55+00:00,,850303115,135,data/raw/media\@jijietcom_309079.jpg,,,
+@jijietcom,309078,2025-06-21T10:05:55+00:00,,850303115,138,data/raw/media\@jijietcom_309078.jpg,,,
+@jijietcom,309077,2025-06-21T10:05:55+00:00,,850303115,131,data/raw/media\@jijietcom_309077.jpg,,,
 @jijietcom,309076,2025-06-21T10:05:55+00:00,"Brand New EPSON Projector
 
 Model name:  EB -X49
@@ -694,11 +694,11 @@ price :93,000ETB
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,120,data/raw/media\@jijietcom_309076.jpg,,"Brand New EPSON Projector Model name: EB -X49 ( 4 Pieces Available ) Hardware interface: VGA, USB, HDMI Lamp Life Expectancy 6,000 / 12,000 Hours (Normal /Eco) Mounting type: Floor Mount, Tabletop Mount Brand: Epson Brightness:.3600 ANSI Lumen Up to 300 inchs lamp life Controller type: Button Control Display resolution: 1024 x 768 Item weight: 2.4 Grams Light source wattage: 200 Watts price :93,000ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309075,2025-06-21T10:05:55+00:00,,850303115,129,data/raw/media\@jijietcom_309075.jpg,,
-@jijietcom,309074,2025-06-21T10:05:55+00:00,,850303115,137,data/raw/media\@jijietcom_309074.jpg,,
-@jijietcom,309073,2025-06-21T10:05:55+00:00,,850303115,128,data/raw/media\@jijietcom_309073.jpg,,
-@jijietcom,309072,2025-06-21T10:05:55+00:00,,850303115,124,data/raw/media\@jijietcom_309072.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,120,data/raw/media\@jijietcom_309076.jpg,,"Brand New EPSON Projector Model name: EB -X49 ( 4 Pieces Available ) Hardware interface: VGA, USB, HDMI Lamp Life Expectancy 6,000 / 12,000 Hours (Normal /Eco) Mounting type: Floor Mount, Tabletop Mount Brand: Epson Brightness:.3600 ANSI Lumen Up to 300 inchs lamp life Controller type: Button Control Display resolution: 1024 x 768 Item weight: 2.4 Grams Light source wattage: 200 Watts price :93,000ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","Brand New EPSON Projector Model name EB -X49 ( 4 Pieces Available ) Hardware interface VGA, USB, HDMI Lamp Life Expectancy 6,000 12,000 Hours (Normal Eco) Mounting type Floor Mount, Tabletop Mount Brand Epson Brightness .3600 ANSI Lumen Up to 300 inchs lamp life Controller type Button Control Display resolution 1024 x 768 Item weight 2.4 Grams Light source wattage 200 Watts price 93,000ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309075,2025-06-21T10:05:55+00:00,,850303115,129,data/raw/media\@jijietcom_309075.jpg,,,
+@jijietcom,309074,2025-06-21T10:05:55+00:00,,850303115,137,data/raw/media\@jijietcom_309074.jpg,,,
+@jijietcom,309073,2025-06-21T10:05:55+00:00,,850303115,128,data/raw/media\@jijietcom_309073.jpg,,,
+@jijietcom,309072,2025-06-21T10:05:55+00:00,,850303115,124,data/raw/media\@jijietcom_309072.jpg,,,
 @jijietcom,309071,2025-06-21T10:05:55+00:00,"Brand New Hp Elite book 840 G7
 ⏩Screen :14inch full HD  
 
@@ -717,10 +717,10 @@ Price.....59,000birr
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,118,data/raw/media\@jijietcom_309071.jpg,,"Brand New Hp Elite book 840 G7 ⏩Screen :14inch full HD ✅ Intel Core i5-10th Generation ▶️Storage:512GB SSD ▶️Ram : 16GB ▶️Super slim design White keyboard light Price.....59,000 ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309070,2025-06-21T10:05:55+00:00,,850303115,122,data/raw/media\@jijietcom_309070.jpg,,
-@jijietcom,309069,2025-06-21T10:05:50+00:00,,850303115,127,data/raw/media\@jijietcom_309069.jpg,,
-@jijietcom,309068,2025-06-21T10:05:50+00:00,,850303115,117,data/raw/media\@jijietcom_309068.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,118,data/raw/media\@jijietcom_309071.jpg,,"Brand New Hp Elite book 840 G7 ⏩Screen :14inch full HD ✅ Intel Core i5-10th Generation ▶️Storage:512GB SSD ▶️Ram : 16GB ▶️Super slim design White keyboard light Price.....59,000 ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","Brand New Hp Elite book 840 G7 Screen 14inch full HD Intel Core i5-10th Generation Storage 512GB SSD Ram 16GB Super slim design White keyboard light Price.....59,000 ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309070,2025-06-21T10:05:55+00:00,,850303115,122,data/raw/media\@jijietcom_309070.jpg,,,
+@jijietcom,309069,2025-06-21T10:05:50+00:00,,850303115,127,data/raw/media\@jijietcom_309069.jpg,,,
+@jijietcom,309068,2025-06-21T10:05:50+00:00,,850303115,117,data/raw/media\@jijietcom_309068.jpg,,,
 @jijietcom,309067,2025-06-21T10:05:50+00:00,"Hp Notebook 15 
 Hp 11th Gen Notebook Laptop 
 💫 Core i7-11th generation 
@@ -735,11 +735,11 @@ Hp 11th Gen Notebook Laptop
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,115,data/raw/media\@jijietcom_309067.jpg,,"Hp Notebook 15 Hp 11th Gen Notebook Laptop 💫 Core i7-11th generation ☑️512Gb SSD storage ☑️16GB DDR5 3200MHZ 💹 intel xe iris GRAPHICS 👉 15.6"" inch screen 👉Battery above 5hrs 👉Price 75000 ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309066,2025-06-21T10:05:50+00:00,,850303115,147,data/raw/media\@jijietcom_309066.jpg,,
-@jijietcom,309065,2025-06-21T10:05:50+00:00,,850303115,151,data/raw/media\@jijietcom_309065.jpg,,
-@jijietcom,309064,2025-06-21T10:05:50+00:00,,850303115,137,data/raw/media\@jijietcom_309064.jpg,,
-@jijietcom,309063,2025-06-21T10:05:50+00:00,,850303115,129,data/raw/media\@jijietcom_309063.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,115,data/raw/media\@jijietcom_309067.jpg,,"Hp Notebook 15 Hp 11th Gen Notebook Laptop 💫 Core i7-11th generation ☑️512Gb SSD storage ☑️16GB DDR5 3200MHZ 💹 intel xe iris GRAPHICS 👉 15.6"" inch screen 👉Battery above 5hrs 👉Price 75000 ETB 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...",Hp Notebook 15 Hp 11th Gen Notebook ላፕቶፕ Core i7-11th generation 512Gb SSD storage 16GB DDR5 3200MHZ intel xe iris GRAPHICS 15.6 inch screen Battery above 5hrs Price 75000 ETB Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ...
+@jijietcom,309066,2025-06-21T10:05:50+00:00,,850303115,147,data/raw/media\@jijietcom_309066.jpg,,,
+@jijietcom,309065,2025-06-21T10:05:50+00:00,,850303115,151,data/raw/media\@jijietcom_309065.jpg,,,
+@jijietcom,309064,2025-06-21T10:05:50+00:00,,850303115,137,data/raw/media\@jijietcom_309064.jpg,,,
+@jijietcom,309063,2025-06-21T10:05:50+00:00,,850303115,129,data/raw/media\@jijietcom_309063.jpg,,,
 @jijietcom,309062,2025-06-21T10:05:50+00:00,"➡️14-inch MacBook Pro with apple M2 pro chip 
 🫶512 GB SSD
 ➡️16GB unified memory
@@ -756,10 +756,10 @@ Tiktok 👉tiktok.com/@eriken_computer
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,129,data/raw/media\@jijietcom_309062.jpg,,"➡️14-inch MacBook Pro with apple M2 pro chip 🫶512 GB SSD ➡️16GB unified memory ➡️14.2-inch(diagonal) Liquid Retina XDR display with proMotion technology ➡️10-core CPU and 16-core GPU 🫡3024 by 1964 pixels 🤯Full size backlit magic keyboard and touch id ➡️Three Thunderbolt 4(USB-C) ports 💰195,000ETB ℹ️ For more info 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309061,2025-06-21T10:05:50+00:00,,850303115,122,data/raw/media\@jijietcom_309061.jpg,,
-@jijietcom,309060,2025-06-21T10:05:49+00:00,,850303115,122,data/raw/media\@jijietcom_309060.jpg,,
-@jijietcom,309059,2025-06-21T10:05:49+00:00,,850303115,121,data/raw/media\@jijietcom_309059.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,129,data/raw/media\@jijietcom_309062.jpg,,"➡️14-inch MacBook Pro with apple M2 pro chip 🫶512 GB SSD ➡️16GB unified memory ➡️14.2-inch(diagonal) Liquid Retina XDR display with proMotion technology ➡️10-core CPU and 16-core GPU 🫡3024 by 1964 pixels 🤯Full size backlit magic keyboard and touch id ➡️Three Thunderbolt 4(USB-C) ports 💰195,000ETB ℹ️ For more info 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","14-inch MacBook Pro with apple M2 pro chip 512 GB SSD 16GB unified memory 14.2-inch(diagonal) Liquid Retina XDR display with proMotion technology 10-core CPU and 16-core GPU 3024 by 1964 pixels Full size backlit magic keyboard and touch id Three Thunderbolt 4(USB-C) ports 195,000ETB ℹ For more info Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309061,2025-06-21T10:05:50+00:00,,850303115,122,data/raw/media\@jijietcom_309061.jpg,,,
+@jijietcom,309060,2025-06-21T10:05:49+00:00,,850303115,122,data/raw/media\@jijietcom_309060.jpg,,,
+@jijietcom,309059,2025-06-21T10:05:49+00:00,,850303115,121,data/raw/media\@jijietcom_309059.jpg,,,
 @jijietcom,309058,2025-06-21T10:05:49+00:00,"Brand New Microsoft Surface Laptop 4 
 
 ✅Intel Core i7-11th Generation 
@@ -778,5 +778,5 @@ Tiktok 👉tiktok.com/@eriken_computer
 👉Call 📞+251926228220
 Tiktok 👉tiktok.com/@eriken_computer
 
-👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,118,data/raw/media\@jijietcom_309058.jpg,,"Brand New Microsoft Surface Laptop 4 ✅Intel Core i7-11th Generation ✅Storage 512gb SSD ✅Ram 16gb ✅Touch screen ✍ Intel iris plus Graphics card ✅ 2K Resolution with backlit keyboard ✅Screen size 14.1 -inch ✍Very thin, Slim & easy to handle ✅ Battery Life 9 hours 👌 2 piece left 👉Price...87,500 etb 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ..."
-@jijietcom,309057,2025-06-21T10:05:49+00:00,,850303115,239,data/raw/media\@jijietcom_309057.jpg,,
+👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ... !!",850303115,118,data/raw/media\@jijietcom_309058.jpg,,"Brand New Microsoft Surface Laptop 4 ✅Intel Core i7-11th Generation ✅Storage 512gb SSD ✅Ram 16gb ✅Touch screen ✍ Intel iris plus Graphics card ✅ 2K Resolution with backlit keyboard ✅Screen size 14.1 -inch ✍Very thin, Slim & easy to handle ✅ Battery Life 9 hours 👌 2 piece left 👉Price...87,500 etb 👉Call 📞+251926228220 Tiktok 👉tiktok.com/@eriken_computer 👉ትልቁ መለያችን #ጥራት እና ታማኝነታችን ነዉ...","Brand New Microsoft Surface ላፕቶፕ 4 Intel Core i7-11th Generation Storage 512gb SSD Ram 16gb Touch screen Intel iris plus Graphics card 2K Resolution with backlit keyboard Screen size 14.1 -inch Very thin, Slim easy to handle Battery Life 9 hours 2 piece left Price...87,500 etb Call 251926228220 Tiktok tiktok.com eriken_computer ትልቁ መለያችን ጥራት እና ታማኝነታችን ነዉ..."
+@jijietcom,309057,2025-06-21T10:05:49+00:00,,850303115,239,data/raw/media\@jijietcom_309057.jpg,,,
