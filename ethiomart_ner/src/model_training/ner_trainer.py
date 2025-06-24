@@ -19,8 +19,9 @@ class FinalNERPredictor:
                 mappings = json.load(f)
                 self.label_to_id = mappings['label_to_id']
                 self.id_to_label = {int(k): v for k, v in mappings['id_to_label'].items()}
+                # Always set label_list in the correct order
+                self.label_list = [self.id_to_label[i] for i in range(len(self.id_to_label))]
         except FileNotFoundError:
-            # Default mappings
             self.label_list = ['O', 'B-PRICE', 'I-PRICE', 'B-LOC', 'I-LOC', 'B-PRODUCT', 'I-PRODUCT']
             self.label_to_id = {label: i for i, label in enumerate(self.label_list)}
             self.id_to_label = {i: label for i, label in enumerate(self.label_list)}
@@ -120,6 +121,26 @@ class FinalNERPredictor:
                 'entities': entities
             })
         return results
+
+    def predict_token_probs(self, text):
+        """
+        Returns per-token class probabilities for a given text.
+        Output: probs [num_tokens, num_classes], tokens [list of tokens]
+        """
+        tokens = text.split()
+        inputs = self.tokenizer(tokens, is_split_into_words=True, return_tensors="pt", truncation=True)
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+        probabilities = torch.softmax(outputs.logits, dim=2)[0]  # [seq_len, num_classes]
+        word_ids = inputs.word_ids()
+        # Only keep probabilities for real tokens (not special tokens)
+        token_probs = []
+        real_tokens = []
+        for i, word_id in enumerate(word_ids):
+            if word_id is not None and word_id < len(tokens):
+                token_probs.append(probabilities[i].cpu().numpy())
+                real_tokens.append(tokens[word_id])
+        return np.array(token_probs), real_tokens
 
 def test_final_model():
     """Test the final model with various confidence thresholds."""
