@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 class FinalNERPredictor:
     def __init__(self, model_path="models/improved_ner_model"):
         self.model_path = model_path
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        self.model = AutoModelForTokenClassification.from_pretrained(model_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path, local_files_only=True)
+        self.model = AutoModelForTokenClassification.from_pretrained(model_path, local_files_only=True)
         
         # Load label mappings
         try:
