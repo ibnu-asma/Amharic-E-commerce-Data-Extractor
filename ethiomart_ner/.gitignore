@@ -29,3 +29,5 @@ config.yaml
 .config/
 # Logs
 logs/
+config
+.config.yaml

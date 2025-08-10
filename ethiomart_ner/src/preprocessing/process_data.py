@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Add project root to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
-from src.preprocessing.preprocess import preprocess_amharic_text
+from src.preprocessing.preprocess import preprocess_amharic_text, preprocess_for_conll
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -26,7 +26,8 @@ def process_raw_file(raw_file_path):
         
         # Create DataFrame and process text
         df = pd.DataFrame(messages)
-        df['processed_text'] = df['text'].apply(preprocess_amharic_text)
+        df['processed_text'] = df['text'].apply(lambda x: preprocess_amharic_text(x) if pd.notna(x) else '')
+        df['conll_text'] = df['text'].apply(lambda x: preprocess_for_conll(x) if pd.notna(x) else '')
         
         # Generate output path
         os.makedirs('data/processed', exist_ok=True)
@@ -39,6 +40,9 @@ def process_raw_file(raw_file_path):
         
     except Exception as e:
         logging.error(f"Error processing {raw_file_path}: {e}")
+        return False
+    
+    return True
 
 def process_all_raw_files():
     """Process all raw JSON files in data/raw/ directory."""
@@ -54,10 +58,11 @@ def process_all_raw_files():
         process_raw_file(raw_file)
 
 def main():
-    """Main function to process raw data files."""
-    import argparse
+    """Main function to process raw data files for Task 2."""
+    print("=== PROCESSING DATA FOR TASK 2 ===")
     
-    parser = argparse.ArgumentParser(description='Process raw Telegram data')
+    import argparse
+    parser = argparse.ArgumentParser(description='Process raw Telegram data for CoNLL labeling')
     parser.add_argument('--file', help='Process specific raw JSON file')
     parser.add_argument('--all', action='store_true', help='Process all raw JSON files')
     
@@ -71,8 +76,9 @@ def main():
     elif args.all:
         process_all_raw_files()
     else:
-        # Default: process all files
         process_all_raw_files()
+    
+    print("✅ Data processing complete. Ready for CoNLL labeling.")
 
 if __name__ == "__main__":
     main()
