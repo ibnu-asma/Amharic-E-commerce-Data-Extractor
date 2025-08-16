@@ -1,106 +1,107 @@
+
 import asyncio
-import yaml
 import os
-from telethon.sync import TelegramClient
-from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument
-import pandas as pd
+import sys
 import json
+import pandas as pd
+from telethon import TelegramClient
 from datetime import datetime
+import yaml
+import logging
+
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from src.preprocessing.preprocess import preprocess_amharic_text
 
-async def connect_to_telegram(config_path):
-    """Initialize and connect to Telegram API using credentials from config.yaml."""
-    try:
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = yaml.safe_load(f)
-        
-        api_id = config['telegram']['api_id']
-        api_hash = config['telegram']['api_hash']
-        phone = config['telegram']['phone']
-        
-        client = TelegramClient('session_name', api_id, api_hash)
-        await client.start(phone=phone)
-        print("Successfully connected to Telegram API")
-        return client
-    except Exception as e:
-        print(f"Failed to connect to Telegram: {e}")
-        raise
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-async def scrape_telegram_channel(client, channel_username, output_dir_raw, output_dir_processed, limit=100):
-    """Scrape messages from a Telegram channel and preprocess text."""
-    os.makedirs(output_dir_raw, exist_ok=True)
-    os.makedirs(output_dir_processed, exist_ok=True)
-    
-    messages_data = []
-    try:
-        async for message in client.iter_messages(channel_username, limit=limit):
+# Load configuration
+with open('config.yaml', 'r', encoding='utf-8') as f:
+    config = yaml.safe_load(f)
+
+async def connect_to_telegram():
+    """Connect to Telegram using credentials from config.yaml."""
+    client = TelegramClient(
+        'session_name',
+        config['telegram']['api_id'],
+        config['telegram']['api_hash']
+    )
+    await client.start(phone=config['telegram']['phone'])
+    if not await client.is_user_authorized():
+        await client.send_code_request(config['telegram']['phone'])
+        code = input('Enter the code you received: ')
+        await client.sign_in(config['telegram']['phone'], code)
+    logging.info("Connected to Telegram")
+    return client
+
+async def scrape_telegram_channel(client, channel, limit=100):
+    """Scrape messages from a Telegram channel."""
+    messages = []
+    async for message in client.iter_messages(channel, limit=limit):
+        if message.message or message.media:
             msg_data = {
-                'channel': channel_username,
+                'channel': channel,
                 'message_id': message.id,
                 'date': message.date.isoformat(),
-                'text': message.text or '',
+                'text': message.message or '',
                 'sender_id': message.sender_id,
-                'views': message.views if message.views else 0,
+                'views': message.views or 0,
                 'image_path': None,
                 'doc_path': None
             }
-            
-            # Handle images
-            if isinstance(message.media, MessageMediaPhoto):
-                image_path = os.path.join(output_dir_raw, 'images', f"{channel_username}_{message.id}.jpg")
-                os.makedirs(os.path.dirname(image_path), exist_ok=True)
-                await message.download_media(file=image_path)
-                msg_data['image_path'] = image_path
-            
-            # Handle documents
-            if isinstance(message.media, MessageMediaDocument):
-                doc_path = os.path.join(output_dir_raw, 'documents', f"{channel_username}_{message.id}")
-                os.makedirs(os.path.dirname(doc_path), exist_ok=True)
-                await message.download_media(file=doc_path)
-                msg_data['doc_path'] = doc_path
-            
-            # Preprocess text
-            msg_data['processed_text'] = preprocess_amharic_text(msg_data['text'])
-            messages_data.append(msg_data)
-        
-        # Save raw data as JSON
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        raw_output_path = os.path.join(output_dir_raw, f"{channel_username[1:]}_{timestamp}.json")
-        with open(raw_output_path, 'w', encoding='utf-8') as f:
-            json.dump(messages_data, f, ensure_ascii=False, indent=2)
-        print(f"Saved raw data to {raw_output_path}")
-        
-        # Save processed data as CSV
-        df = pd.DataFrame(messages_data)
-        processed_output_path = os.path.join(output_dir_processed, f"{channel_username[1:]}_{timestamp}.csv")
-        df.to_csv(processed_output_path, index=False, encoding='utf-8')
-        print(f"Saved processed data to {processed_output_path}")
-        
-        return messages_data
-    except Exception as e:
-        print(f"Error scraping {channel_username}: {e}")
-        return []
+            # Save media (images or documents)
+            if message.media:
+                media_path = f"data/raw/media/{channel}_{message.id}"
+                os.makedirs(os.path.dirname(media_path), exist_ok=True)
+                file_path = await client.download_media(message.media, media_path)
+                if file_path and (file_path.endswith(('.jpg', '.png', '.jpeg'))):
+                    msg_data['image_path'] = file_path
+                elif file_path:
+                    msg_data['doc_path'] = file_path
+            messages.append(msg_data)
+    return messages
+
+def save_data(messages, channel):
+    """Save raw JSON and processed CSV."""
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    os.makedirs('data/raw', exist_ok=True)
+    os.makedirs('data/processed', exist_ok=True)
+    
+    # Save raw JSON
+    raw_path = f"data/raw/{channel}_{timestamp}.json"
+    with open(raw_path, 'w', encoding='utf-8') as f:
+        json.dump(messages, f, ensure_ascii=False, indent=2)
+    logging.info(f"Saved raw data to {raw_path}")
+    
+    # Process and save CSV
+    df = pd.DataFrame(messages)
+    df['processed_text'] = df['text'].apply(preprocess_amharic_text)
+    processed_path = f"data/processed/{channel}_{timestamp}.csv"
+    df.to_csv(processed_path, index=False, encoding='utf-8')
+    logging.info(f"Saved processed data to {processed_path}")
 
 async def main():
-    """Scrape multiple Telegram channels."""
-    config_path = 'config.yaml'
-    output_dir_raw = 'data/raw'
-    output_dir_processed = 'data/processed'
-    
-    # List of Ethiopian e-commerce channels (replace with actual channels)
+    """Main function to scrape multiple channels."""
+    client = await connect_to_telegram()
     channels = [
-        '@Shageronlinestore',
-        '@EthioEcommerce1',
-        '@EthioMartSales',
-        '@AddisShopping',
-        '@EthioOnlineBazaar'
+        '@helloomarketethiopia',
+        '@jijietcom',
+        '@ethioomart1',
+        '@shega_gebeya1',
+        '@AwasMart'
     ]
-    
-    client = await connect_to_telegram(config_path)
-    async with client:
-        for channel in channels:
-            print(f"Scraping {channel}...")
-            await scrape_telegram_channel(client, channel, output_dir_raw, output_dir_processed, limit=100)
+    for channel in channels:
+        try:
+            logging.info(f"Scraping channel: {channel}")
+            messages = await scrape_telegram_channel(client, channel, limit=100)
+            if messages:
+                save_data(messages, channel.replace('@', ''))
+            else:
+                logging.warning(f"No messages scraped from {channel}")
+        except Exception as e:
+            logging.error(f"Error scraping {channel}: {e}")
+    await client.disconnect()
 
 if __name__ == "__main__":
     asyncio.run(main())
