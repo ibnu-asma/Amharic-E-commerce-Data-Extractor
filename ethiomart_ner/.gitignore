@@ -30,3 +30,4 @@ config.yaml
 # Logs
 logs/
 config
+.config.yaml
