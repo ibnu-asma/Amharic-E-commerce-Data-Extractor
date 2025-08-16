@@ -8,8 +8,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def preprocess_amharic_text(text):
     """Preprocess Amharic text for NER using XLM-RoBERTa tokenizer."""
-    if not text:
-        logging.info("Empty text input received")
+    if not text or not isinstance(text, str):
+        logging.info("Empty or non-string text input received")
         return ""
     
     try:
@@ -57,6 +57,8 @@ def preprocess_amharic_text(text):
     except Exception as e:
         logging.error(f"Error preprocessing text: {text}, Error: {e}")
         # Fallback: basic preprocessing without tokenizer
+        if not isinstance(text, str):
+            return ""
         text = unicodedata.normalize('NFC', text)
         text = re.sub(r'[።፣፤፥፦፧!]', '', text)
         text = re.sub(r'፩፻', '100', text)
@@ -66,4 +68,4 @@ def preprocess_amharic_text(text):
         text = re.sub(r'(\d+)\s*(birr|ብር)', r'\1 ETB', text, flags=re.IGNORECASE)
         text = re.sub(r'\b(extra|spaces?)\b', '', text, flags=re.IGNORECASE)
         text = re.sub(r'\s+', ' ', text).strip()
-        return text
+        return text 
