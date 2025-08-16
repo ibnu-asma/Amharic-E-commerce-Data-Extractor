@@ -8,40 +8,23 @@ ethiomart_ner/
 ├── src/                    # Source code
 │   ├── __init__.py
 │   ├── data_ingestion/     # Telegram scraping scripts
-│   │   ├── __init__.py
 │   ├── preprocessing/      # Text preprocessing
-│   │   ├── __init__.py
-│   │   ├── preprocess.py
 │   ├── labeling/           # NER labeling
-│   │   ├── __init__.py
 │   ├── model_training/     # Model fine-tuning
-│   │   ├── __init__.py
 │   ├── evaluation/         # Model comparison and interpretability
-│   │   ├── __init__.py
 ├── tests/                  # Unit tests
-│   ├── __init__.py
-│   ├── test_preprocessing.py
-├── notebooks/              # Jupyter notebooks
-│   ├── eda.ipynb
+├── notebooks/              # Jupyter notebooks (EDA, training, analysis)
 ├── data/                   # Data storage
 │   ├── raw/                # Raw Telegram data
-│   │   ├── .gitkeep
 │   ├── processed/          # Preprocessed and labeled data
-│   │   ├── .gitkeep
 │   ├── images/             # Product images
-│   │   ├── .gitkeep
 │   ├── documents/          # Documents
-│   │   ├── .gitkeep
 ├── models/                 # Trained models
-│   ├── .gitkeep
 ├── docs/                   # Documentation and reports
-├── .github/                # GitHub configurations
-│   ├── workflows/          # GitHub Actions workflows
-│   │   ├── ci.yml
 ├── requirements.txt        # Python dependencies
-├── config.yaml            # Configuration file
-├── README.md              # Project overview
-└── .gitignore             # Git ignore file
+├── config.yaml             # Configuration file
+├── README.md               # Project overview
+└── .gitignore              # Git ignore file
 ```
 
 ## Setup Instructions
@@ -71,13 +54,71 @@ ethiomart_ner/
        phone: 'YOUR_PHONE_NUMBER'
      ```
 
-5. **Run tests**:
+5. **Run tests** (optional):
    ```bash
    pytest tests/
    ```
 
-6. **Run the project**:
-   - Start with the data ingestion script in `src/data_ingestion/`.
+---
+
+## Full Workflow: From Data to Vendor Analytics
+
+### 1. **Data Collection**
+- **Ingest Telegram posts** using the scripts in `src/data_ingestion/`.
+- Output: Raw data in `data/raw/`.
+
+### 2. **Data Preprocessing & Cleaning**
+- Use `src/preprocessing/preprocess.py` or the `notebooks/eda.ipynb` notebook to clean and explore the data.
+- Output: Cleaned data in `data/processed/`.
+
+### 3. **Data Labeling for NER**
+- Annotate a subset of posts for NER using the `src/labeling/label_conll.py` script or manual annotation.
+- Output: Labeled data in CoNLL format in `data/labeled/`.
+
+### 4. **Model Training & Fine-Tuning**
+- Use `notebooks/ner_training.ipynb` or `notebooks/ner_training_updated.ipynb` to fine-tune transformer models (e.g., DistilBERT, XLM-RoBERTa) on your labeled data.
+- Output: Trained model files in `models/`.
+
+### 5. **Model Evaluation & Comparison**
+- Compare model performance using `notebooks/model_comparison.ipynb`.
+- Evaluate precision, recall, F1-score for each entity type.
+
+### 6. **Model Interpretability**
+- Use `notebooks/model_interpretability.ipynb` to analyze model predictions with SHAP and LIME, and understand which tokens influence entity recognition.
+
+### 7. **Vendor Analytics & Scorecard**
+- Run `notebooks/vendor_scorecard.ipynb` to:
+  - Extract entities from all vendor posts using your best NER model.
+  - Combine with post metadata (views, timestamps) to compute:
+    - Posting frequency (posts/week)
+    - Average views per post
+    - Average price point
+    - Top performing post
+    - Lending score (custom weighted metric)
+  - Output: Vendor scorecard table for business analysis, saved in `reports/`.
+
+---
+
+## Example: Running the Full Pipeline
+
+1. **Ingest data:**
+   ```bash
+   python src/data_ingestion/scraper.py
+   ```
+2. **Preprocess data:**
+   ```bash
+   python src/preprocessing/preprocess.py
+   ```
+3. **Label data:**
+   - Use `src/labeling/label_conll.py` or annotate manually.
+4. **Train model:**
+   - Run cells in `notebooks/ner_training.ipynb` or `notebooks/ner_training_updated.ipynb`.
+5. **Evaluate and interpret:**
+   - Use `notebooks/model_comparison.ipynb` and `notebooks/model_interpretability.ipynb`.
+6. **Vendor analytics:**
+   - Run `notebooks/vendor_scorecard.ipynb` for the final business report.
+
+---
 
 ## Dependencies
 - Python 3.8+
