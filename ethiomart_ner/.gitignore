@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment
+.env
+*.env
+venv/
+
+# Data
+data/raw/*
+data/images/*
+data/documents/*
+!data/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
