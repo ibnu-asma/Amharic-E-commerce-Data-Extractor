@@ -68,4 +68,42 @@ def preprocess_amharic_text(text):
         text = re.sub(r'(\d+)\s*(birr|ብር)', r'\1 ETB', text, flags=re.IGNORECASE)
         text = re.sub(r'\b(extra|spaces?)\b', '', text, flags=re.IGNORECASE)
         text = re.sub(r'\s+', ' ', text).strip()
-        return text 
+        return text
+
+def preprocess_for_conll(text):
+    """Preprocess text specifically for CoNLL labeling."""
+    if not isinstance(text, str):
+        return ""
+    
+    # First apply standard preprocessing
+    text = preprocess_amharic_text(text)
+    
+    # Remove emojis and special characters
+    text = re.sub(r'[^\w\s\u1200-\u137F\u1380-\u139F\u2D80-\u2DDF\u1000-\u109F.,!?()-]', ' ', text)
+    
+    # English to Amharic translation for common e-commerce terms
+    translations = {
+        'bottle': 'ጠርሙስ',
+        'toy': 'አሻንጉሊት', 
+        'kitchen': 'ኩሽና',
+        'set': 'ስብስብ',
+        'laptop': 'ላፕቶፕ',
+        'stand': 'መደገፊያ',
+        'juicer': 'ጭማቂ_ማውጫ',
+        'sealer': 'መዝጊያ',
+        'clay': 'ሸክላ',
+        'dancing': 'ዳንስ_ሰሪ',
+        'cactus': 'በረሃ_ተክል',
+        'baby': 'ህጻን',
+        'feeding': 'መመገቢያ',
+        'bank': 'ባንክ'
+    }
+    
+    # Apply translations
+    for eng, amh in translations.items():
+        text = re.sub(rf'\b{eng}\b', amh, text, flags=re.IGNORECASE)
+    
+    # Clean whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    return text
