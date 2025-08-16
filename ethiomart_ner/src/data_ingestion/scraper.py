@@ -10,6 +10,8 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+
+
 # Load configuration
 with open('config.yaml', 'r', encoding='utf-8') as f:
     config = yaml.safe_load(f)
