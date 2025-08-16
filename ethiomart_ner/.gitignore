@@ -24,3 +24,8 @@ notebooks/.ipynb_checkpoints/
 # Virtual environment
 venv/
 .env/
+
+config.yaml
+.config/
+# Logs
+logs/
